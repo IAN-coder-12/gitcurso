@@ -1,0 +1,289 @@
+
+/*MENU*/
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+div#general{
+	margin-top:-110px;
+	width:100%;
+	height:180px;
+	background-color:#ffffff;
+}
+body{
+  background: #fff;
+}
+.contenedor {
+	width:80%;
+	max-width:1000px; 
+	margin:0 auto;
+	overflow:hidden;
+}
+.container-1 input#search{
+  position: relative;
+  top: -155px;
+  left:1050px;
+  margin-left: 17px;
+  margin-top: 17px;
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left,
+  color: #262626;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+ }
+.container-1 .icon{
+  position: relative;
+  top: -155px;
+  left:1050px;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+img{
+	height:auto;
+	width:20%;
+	padding-left:0px;
+}
+header{
+	width:100%;
+}
+
+nav {
+	margin:-50px auto;
+	width:20%;
+	max-width:1500px;
+	position:relative;
+	top:-160px;
+	bottom:;
+	right:;
+	left:-280px;
+	z-index:2;
+}
+
+
+ ul{
+	list-style:none;
+
+}
+nav > ul {
+	display:table;
+	overflow:hidden;
+	width:100%;
+	background:#ffffff;
+	position:absolute;
+	
+
+}
+
+nav> ul  li{
+	display:table-cell;
+}
+
+/*submenu*/
+
+nav > ul > li:hover > ul {
+	display:block;
+	height:20%;
+	
+}
+nav > ul > li > ul {
+    display:none;
+    left:0;
+    right:0;
+    overflow:hidden;
+    height:0%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+/*submenu*/
+
+
+nav> ul li a {
+	font-family:Oswald;
+	color:#01204A; 
+	display:block;
+	line-height:20px;
+	padding:20px 50px;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav  > ul > li > a span {
+	background:#033649;
+    display:block;
+    height:100%;
+    width:100%;
+    left:0;
+    position:absolute;
+    top:-55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span   {
+	display:block;
+	line-height:60px;
+}
+nav > ul > li > a:hover >span {
+	top:0;
+}
+
+/*colores*/
+
+nav ul li a i {
+	color:#ffffff;
+}
+nav ul li a .primero {
+	background:#0e5061;
+}
+
+nav ul li a .segundo{
+	background:#5da5a2;
+	
+}
+nav ul li a .tercero{
+	background:#f25724;
+	
+}
+nav ul li a .cuartro{
+	background:#174459;
+	
+}
+nav ul li a .quinto{
+	background:#37a4d9;
+	
+}
+
+/*REDES SOCIALES*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.social-bar {
+	position: fixed;
+	left:0;
+	top:50%;
+	font-size:1.5rem;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	z-index:100;
+	
+}
+
+.social-bar a{
+	display:inline-block;
+	text-decoration:none;
+	color:#fff;
+	padding:.7rem;
+	display:flex;
+	transition: all .5s ease;
+	width:30px;
+	
+}
+
+ 
+/*colores*/
+.fa-facebook-f{
+	background:#0B6085;
+    border-top-right-radius:10px; 
+}
+.fa-youtube{
+	background:#FC0703;
+}
+.fa-whatsapp{
+	background:#0FBE07;
+}
+.fa-google-plus-g{
+	background:#FC8303;
+	border-bottom-right-radius:10px; 
+}
+
+.social-bar a:hover{
+	padding:10px 25px;
+	border-top-right-radius:10px; 
+	border-bottom-right-radius:10px; 
+}
+
+/*slider*/
+
+    .slider {
+		width: 95%;
+		margin:-10% 290px;
+		overflow:hidden;
+	}
+
+	.slider ul {
+		display: flex;
+		padding: -60;
+		width:400%;
+		animation:cambio 20s infinite alternate linear;
+		
+
+	}
+
+	.slider li {
+		width:100%;
+		list-style: none;
+		
+	}
+
+    .slider img{
+    	width:700px;
+    	height:250px;
+    }
+
+    @keyframes cambio{
+    	0%{ margin-left: 0; }
+    	20%{margin-left: 0;}
+
+        25% {margin-left: -100%}            
+        45% {margin-left: -100%}
+
+        50% {margin-left: -200%}            
+        70% {margin-left: -200%}
+
+        75% {margin-left: -300%}            
+        95% {margin-left: -300%}
+    }
+
+    @media screen and (max-width: 800px){
+    	
+    	.slider{
+    		width:100%;
+    		}
+
+    	.container-1{
+    		width:100%;
+    	}
+    	
+    	.menu-desplegable{
+    		width:100%;
+    	}
+    }
